@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="projectcss.css">
+        <title>
+            Robotic Arm Control
+        </title>
+    </head>
+    <body>
+<h1>Controller</h1>
+        <form action="action.php" method="POST">
+            <div class = sliders>
+                <p>Engine1:</p>
+            <input type="range" min="0" max="180" value="90" class="slider" id="Range1" name= "Range1">
+        <p class= value>Value: <span id ="value1"></span></p>
+                <p>Engine2:</p>
+            <input type="range" min="0" max="180" value="90" class="slider" id="Range2" name= "Range2">
+        <p class= value>Value: <span id ="value2"></span></p>
+                <p>Engine3:</p>
+            <input type="range" min="0" max="180" value="90" class="slider" id="Range3" name= "Range3">
+        <p class= value>Value: <span id ="value3"></span></p>
+                <p>Engine4:</p>
+            <input type="range" min="0" max="180" value="90" class="slider" id="Range4" name= "Range4">
+        <p class= value>Value: <span id ="value4"></span></p>
+                <p>Engine5:</p>
+            <input type="range" min="0" max="180" value="90" class="slider" id="Range5" name= "Range5">
+        <p class= value>Value: <span id ="value5"></span></p>
+            </div>
+            <div class=buttons>
+        <input type="radio" id="status" name="status" value="1" checked>
+        <label for="status"> Run </label><br>
+        <input type="radio" id="status" name="status" value="0">
+        <label for="vehicle2"> Stop </label><br>
+        <input type="submit" value="Save" name="submit">
+    </div>
+        </form>
+    </body>
+    <script src="projectjs.js"></script>
+</html>

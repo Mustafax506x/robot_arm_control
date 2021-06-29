@@ -1,0 +1,36 @@
+body{
+  background: papayawhip;
+}
+h1{
+  margin: auto;
+  color: red;
+  padding: 25px;
+  width: 150px;
+
+}
+div.sliders{
+  width: 800px;
+  margin: auto;
+  border: 1px solid red;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+input[type="range"]{
+  width: 750px;
+}
+p.value{
+ margin-right: 250px;
+}
+span{
+  padding: 5px;
+  width: 50px;
+  margin: auto;
+
+}
+div.buttons {
+  width: 150px;
+  margin: auto;
+  padding: 25px;
+  box-sizing: border-box;
+}
